@@ -1,0 +1,41 @@
+/* styles/Home.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#break-label, #session-label, #timer-label {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+#break-length, #session-length, #time-left {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
